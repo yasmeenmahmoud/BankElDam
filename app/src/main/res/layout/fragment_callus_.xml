@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context=".Fragments.Callus_Fragment">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/ourphoneee"
+        android:drawablePadding="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/ourphone"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/ourmail"
+        android:drawablePadding="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/ouremail"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/facebook" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/twiter" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/youtuobe" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/inesta" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/watsapp" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/google" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="#363641"
+        android:text="@string/callus"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/custom_edittext"
+        android:hint="@string/messagetitle"
+        android:paddingRight="10dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/custom_edittext"
+        android:hint="@string/message"
+        android:paddingRight="10dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#363641"
+        android:text="@string/send"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/ovallinearlayout"
+    android:orientation="horizontal"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/blodtypee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/circletextview"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/b"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/blodtypee"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/patientname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/patientname"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/patienthospital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/patienthospital"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/patientcity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/patientcity"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="2dp"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/details"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:background="#f4efef"
+            android:gravity="center"
+            android:text="@string/details"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/calll"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:background="#2c9f24"
+            android:drawableLeft="@drawable/call"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:onClick="callPatient"
+            android:text="@string/call"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

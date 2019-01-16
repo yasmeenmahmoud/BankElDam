@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d9dada</color>
+    <color name="colorPrimaryDark">#6aac6c</color>
+    <color name="colorAccent">#e4e1e2</color>
+    <color name="actionBarText">#000</color>
+    <color name="tab_background_selected">#34495E</color>
+    <color name="tab_background_unselected">#EAEDED</color>
+    <color name="item_background">#dcddde</color>
+
+</resources>

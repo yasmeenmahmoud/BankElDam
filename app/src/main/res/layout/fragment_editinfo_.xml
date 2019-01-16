@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bk"
+    android:orientation="vertical"
+    tools:context=".Fragments.Editinfo_Fragment">
+
+    <EditText
+        android:id="@+id/I_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/custom_edittext"
+        android:hint=""
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/I_email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/custom_edittext"
+        android:hint=""
+        android:inputType="textEmailAddress"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/I_date"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/custom_edittext"
+        android:hint=""
+        android:inputType="datetime"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/I_blodtype"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/custom_edittext"
+        android:hint=""
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_edittext"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/cityspinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layoutDirection="rtl"
+            android:spinnerMode="dropdown" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/I_phone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/custom_edittext"
+        android:gravity="right"
+        android:hint=""
+        android:inputType="phone"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/I_password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/custom_edittext"
+        android:gravity="right"
+        android:hint=""
+        android:inputType="textPassword"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/I_confiempassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/custom_edittext"
+        android:gravity="right"
+        android:hint=""
+        android:inputType="textPassword"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/mydatee"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/calenderimg"
+        android:drawablePadding="20dp"
+        android:gravity="right"
+        android:text=""
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/editdata"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:background="#34495E"
+        android:layout_gravity="center"
+        android:text="@string/edit"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

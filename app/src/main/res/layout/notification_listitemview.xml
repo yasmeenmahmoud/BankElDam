@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha=".7"
+        android:background="#eae9e9"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:layoutDirection="rtl"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/notyifytitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/notificationicon"
+            android:drawablePadding="5dp"
+            android:layout_marginLeft="40dp"
+            android:paddingRight="10dp"
+            android:text="@string/notify1"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/notifydate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notifydata"
+            android:paddingLeft="40dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+    </LinearLayout>

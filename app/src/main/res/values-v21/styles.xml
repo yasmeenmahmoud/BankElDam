@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+
+    <style name="ThemeOverlay.AppCompat.navTheme">
+
+        <!-- Color of text and icon when SELECTED -->
+        <item name="colorPrimary">#e2e1e1</item>
+
+        <!-- Background color when SELECTED -->
+
+        <item name="android:itemBackground">#acabab</item>
+        <item name="android:icon">@drawable/drawer_icon</item>
+
+
+
+    </style>
+</resources>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bk"
+    android:orientation="vertical"
+    tools:context=".Activity.Register">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="12dp"
+        android:text="@string/signin"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_edittext"
+        android:hint="@string/name"
+        android:paddingRight="8dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_edittext"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:paddingRight="8dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/birthdate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_edittext"
+        android:gravity="right"
+        android:hint="@string/birthdate"
+        android:inputType="datetime"
+        android:paddingRight="8dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/blodtype"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_edittext"
+        android:hint="@string/blodtype"
+        android:paddingRight="8dp"
+        android:textSize="18sp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_edittext"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/governspinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layoutDirection="rtl"
+            android:spinnerMode="dropdown" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_edittext"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/cityspinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layoutDirection="rtl"
+            android:spinnerMode="dropdown" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingRight="8dp"
+        android:background="@drawable/custom_edittext"
+        android:gravity="right"
+        android:hint="@string/phonenumber"
+        android:inputType="phone"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingRight="8dp"
+        android:background="@drawable/custom_edittext"
+        android:gravity="right"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingRight="8dp"
+        android:background="@drawable/custom_edittext"
+        android:gravity="right"
+        android:hint="@string/confirmpassword"
+        android:inputType="textPassword"
+        android:textSize="18sp" />
+
+    <!--<EditText-->
+        <!--android:id="@+id/city"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:hint="city"-->
+        <!--android:textSize="20sp" />-->
+    <EditText
+        android:id="@+id/lastdate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingRight="8dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/calenderimg"
+        android:drawablePadding="20dp"
+        android:padding="10dp"
+        android:hint="@string/calender"
+        android:onClick="showcalender"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="24dp"
+        android:background="#34495E"
+        android:onClick="signhome"
+        android:layout_gravity="center"
+        android:text="@string/sign"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+    <ProgressBar
+    android:id="@+id/Progrossregister"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_gravity="center"
+  />
+</LinearLayout>

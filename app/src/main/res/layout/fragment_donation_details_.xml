@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".Fragments.DonationDetails_Fragment">
+
+    <!--<include layout="@layout/mycustum_toolbar" />-->
+
+    <TextView
+        android:id="@+id/D_patientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_edittext"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="14dp"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/D_patientAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_edittext"
+        android:paddingLeft="10dp"
+        android:paddingTop="14dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="14dp"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/D_blodtype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_edittext"
+        android:paddingLeft="10dp"
+        android:paddingTop="14dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="14dp"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/D_bagsNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_edittext"
+        android:paddingLeft="10dp"
+        android:paddingTop="14dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="14dp"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/D_hospitalname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_edittext"
+        android:paddingLeft="10dp"
+        android:paddingTop="14dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="14dp"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/D_hospitaladdres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_edittext"
+        android:paddingLeft="10dp"
+        android:paddingTop="14dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="14dp"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/D_phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_edittext"
+        android:paddingLeft="10dp"
+        android:paddingTop="14dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="14dp"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/D_nots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_edittext"
+        android:paddingLeft="10dp"
+        android:paddingTop="14dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="14dp"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/call_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:background="#37ac47"
+        android:drawableLeft="@drawable/call"
+        android:drawablePadding="8dp"
+        android:gravity="center"
+        android:paddingLeft="120dp"
+        android:paddingRight="120dp"
+        android:text="@string/call"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+</LinearLayout>
